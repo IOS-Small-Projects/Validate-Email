@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CDE0C01D956F34000E2675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE0BF1D956F34000E2675 /* AppDelegate.swift */; };
+		33CDE0C21D956F34000E2675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE0C11D956F34000E2675 /* ViewController.swift */; };
+		33CDE0C51D956F34000E2675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CDE0C31D956F34000E2675 /* Main.storyboard */; };
+		33CDE0C81D956F34000E2675 /* Validate_Email.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE0C61D956F34000E2675 /* Validate_Email.xcdatamodeld */; };
+		33CDE0CA1D956F34000E2675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CDE0C91D956F34000E2675 /* Assets.xcassets */; };
+		33CDE0CD1D956F34000E2675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CDE0CB1D956F34000E2675 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33CDE0BC1D956F34000E2675 /* Validate-Email.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Validate-Email.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CDE0BF1D956F34000E2675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33CDE0C11D956F34000E2675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33CDE0C41D956F34000E2675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CDE0C71D956F34000E2675 /* Validate_Email.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Validate_Email.xcdatamodel; sourceTree = "<group>"; };
+		33CDE0C91D956F34000E2675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CDE0CC1D956F34000E2675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33CDE0CE1D956F34000E2675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CDE0B91D956F34000E2675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CDE0B31D956F33000E2675 = {
+			isa = PBXGroup;
+			children = (
+				33CDE0BE1D956F34000E2675 /* Validate-Email */,
+				33CDE0BD1D956F34000E2675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CDE0BD1D956F34000E2675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CDE0BC1D956F34000E2675 /* Validate-Email.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CDE0BE1D956F34000E2675 /* Validate-Email */ = {
+			isa = PBXGroup;
+			children = (
+				33CDE0BF1D956F34000E2675 /* AppDelegate.swift */,
+				33CDE0C11D956F34000E2675 /* ViewController.swift */,
+				33CDE0C31D956F34000E2675 /* Main.storyboard */,
+				33CDE0C91D956F34000E2675 /* Assets.xcassets */,
+				33CDE0CB1D956F34000E2675 /* LaunchScreen.storyboard */,
+				33CDE0CE1D956F34000E2675 /* Info.plist */,
+				33CDE0C61D956F34000E2675 /* Validate_Email.xcdatamodeld */,
+			);
+			path = "Validate-Email";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CDE0BB1D956F34000E2675 /* Validate-Email */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CDE0D11D956F34000E2675 /* Build configuration list for PBXNativeTarget "Validate-Email" */;
+			buildPhases = (
+				33CDE0B81D956F34000E2675 /* Sources */,
+				33CDE0B91D956F34000E2675 /* Frameworks */,
+				33CDE0BA1D956F34000E2675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Validate-Email";
+			productName = "Validate-Email";
+			productReference = 33CDE0BC1D956F34000E2675 /* Validate-Email.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CDE0B41D956F33000E2675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Introp;
+				TargetAttributes = {
+					33CDE0BB1D956F34000E2675 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 33CDE0B71D956F34000E2675 /* Build configuration list for PBXProject "Validate-Email" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CDE0B31D956F33000E2675;
+			productRefGroup = 33CDE0BD1D956F34000E2675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CDE0BB1D956F34000E2675 /* Validate-Email */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CDE0BA1D956F34000E2675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CDE0CD1D956F34000E2675 /* LaunchScreen.storyboard in Resources */,
+				33CDE0CA1D956F34000E2675 /* Assets.xcassets in Resources */,
+				33CDE0C51D956F34000E2675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CDE0B81D956F34000E2675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CDE0C81D956F34000E2675 /* Validate_Email.xcdatamodeld in Sources */,
+				33CDE0C21D956F34000E2675 /* ViewController.swift in Sources */,
+				33CDE0C01D956F34000E2675 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33CDE0C31D956F34000E2675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CDE0C41D956F34000E2675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CDE0CB1D956F34000E2675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CDE0CC1D956F34000E2675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CDE0CF1D956F34000E2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CDE0D01D956F34000E2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CDE0D21D956F34000E2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Validate-Email/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Validate-Email";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33CDE0D31D956F34000E2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Validate-Email/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Validate-Email";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CDE0B71D956F34000E2675 /* Build configuration list for PBXProject "Validate-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CDE0CF1D956F34000E2675 /* Debug */,
+				33CDE0D01D956F34000E2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CDE0D11D956F34000E2675 /* Build configuration list for PBXNativeTarget "Validate-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CDE0D21D956F34000E2675 /* Debug */,
+				33CDE0D31D956F34000E2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33CDE0C61D956F34000E2675 /* Validate_Email.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33CDE0C71D956F34000E2675 /* Validate_Email.xcdatamodel */,
+			);
+			currentVersion = 33CDE0C71D956F34000E2675 /* Validate_Email.xcdatamodel */;
+			path = Validate_Email.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33CDE0B41D956F33000E2675 /* Project object */;
+}
