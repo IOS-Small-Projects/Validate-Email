@@ -3,8 +3,7 @@
 //  Validate-Email
 //
 //  Created by Rohit on 23/09/16.
-//  Copyright © 2016 Introp. All rights reserved.
-//
+
 
 import UIKit
 
